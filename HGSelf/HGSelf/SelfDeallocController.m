@@ -1,21 +1,22 @@
 //
-//  ViewController.m
+//  SelfDeallocController.m
 //  HGSelf
 //
-//  Created by  ZhuHong on 2018/1/28.
+//  Created by  ZhuHong on 2018/1/29.
 //  Copyright © 2018年 CoderHG. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SelfDeallocController.h"
 #import "HGSelfObject.h"
 
-@interface ViewController ()
+@interface SelfDeallocController ()
 
 @property (nonatomic, strong) HGSelfObject* obj;
 
 @end
 
-@implementation ViewController
+@implementation SelfDeallocController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,13 +34,8 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [_obj msg];
     
+    // 这里没有问题
 //    [self.obj msg];
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

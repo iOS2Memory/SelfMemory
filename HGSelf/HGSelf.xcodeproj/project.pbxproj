@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		51373FDE201D8DD00092003D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51373FDD201D8DD00092003D /* AppDelegate.m */; };
-		51373FE1201D8DD00092003D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51373FE0201D8DD00092003D /* ViewController.m */; };
 		51373FE4201D8DD00092003D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51373FE2201D8DD00092003D /* Main.storyboard */; };
 		51373FE6201D8DD00092003D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51373FE5201D8DD00092003D /* Assets.xcassets */; };
 		51373FE9201D8DD00092003D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51373FE7201D8DD00092003D /* LaunchScreen.storyboard */; };
 		51373FEC201D8DD00092003D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51373FEB201D8DD00092003D /* main.m */; };
 		51373FF4201D8DE50092003D /* HGSelfObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 51373FF3201D8DE50092003D /* HGSelfObject.m */; };
+		51765EA5201F374D00E49D94 /* SelfDeallocController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51765EA4201F374D00E49D94 /* SelfDeallocController.m */; };
+		51765EA8201F378600E49D94 /* WeakStrongBlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51765EA7201F378600E49D94 /* WeakStrongBlockController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51373FD9201D8DD00092003D /* HGSelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGSelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51373FDC201D8DD00092003D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51373FDD201D8DD00092003D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		51373FDF201D8DD00092003D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		51373FE0201D8DD00092003D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		51373FE3201D8DD00092003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51373FE5201D8DD00092003D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51373FE8201D8DD00092003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +28,10 @@
 		51373FEB201D8DD00092003D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51373FF2201D8DE50092003D /* HGSelfObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGSelfObject.h; sourceTree = "<group>"; };
 		51373FF3201D8DE50092003D /* HGSelfObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGSelfObject.m; sourceTree = "<group>"; };
+		51765EA3201F374D00E49D94 /* SelfDeallocController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfDeallocController.h; sourceTree = "<group>"; };
+		51765EA4201F374D00E49D94 /* SelfDeallocController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfDeallocController.m; sourceTree = "<group>"; };
+		51765EA6201F378600E49D94 /* WeakStrongBlockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakStrongBlockController.h; sourceTree = "<group>"; };
+		51765EA7201F378600E49D94 /* WeakStrongBlockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakStrongBlockController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +66,10 @@
 			children = (
 				51373FDC201D8DD00092003D /* AppDelegate.h */,
 				51373FDD201D8DD00092003D /* AppDelegate.m */,
-				51373FDF201D8DD00092003D /* ViewController.h */,
-				51373FE0201D8DD00092003D /* ViewController.m */,
+				51765EA3201F374D00E49D94 /* SelfDeallocController.h */,
+				51765EA4201F374D00E49D94 /* SelfDeallocController.m */,
+				51765EA6201F378600E49D94 /* WeakStrongBlockController.h */,
+				51765EA7201F378600E49D94 /* WeakStrongBlockController.m */,
 				51373FF2201D8DE50092003D /* HGSelfObject.h */,
 				51373FF3201D8DE50092003D /* HGSelfObject.m */,
 				51373FE2201D8DD00092003D /* Main.storyboard */,
@@ -147,7 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51373FE1201D8DD00092003D /* ViewController.m in Sources */,
+				51765EA8201F378600E49D94 /* WeakStrongBlockController.m in Sources */,
+				51765EA5201F374D00E49D94 /* SelfDeallocController.m in Sources */,
 				51373FF4201D8DE50092003D /* HGSelfObject.m in Sources */,
 				51373FEC201D8DD00092003D /* main.m in Sources */,
 				51373FDE201D8DD00092003D /* AppDelegate.m in Sources */,

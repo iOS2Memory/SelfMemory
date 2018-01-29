@@ -17,7 +17,7 @@
 - (void)msg;
 
 // 故意报错
-详细介绍，请参考大神文章： http://blog.sunnyxx.com/2015/01/17/self-in-arc/
+ 详细介绍，请参考大神文章： http://blog.sunnyxx.com/2015/01/17/self-in-arc/
 
 
 @end

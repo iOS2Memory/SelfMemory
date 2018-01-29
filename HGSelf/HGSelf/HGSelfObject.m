@@ -68,7 +68,7 @@
 }
 
 - (void)dealloc {
-    NSLog(@"亲亲的，我走了");
+    NSLog(@"HGSelfObject -- 亲亲的，我走了");
 }
 
 @end
