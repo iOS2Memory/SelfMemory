@@ -15,6 +15,7 @@
 		51373FF4201D8DE50092003D /* HGSelfObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 51373FF3201D8DE50092003D /* HGSelfObject.m */; };
 		51765EA5201F374D00E49D94 /* SelfDeallocController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51765EA4201F374D00E49D94 /* SelfDeallocController.m */; };
 		51765EA8201F378600E49D94 /* WeakStrongBlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51765EA7201F378600E49D94 /* WeakStrongBlockController.m */; };
+		51765ED0202197AD00E49D94 /* TimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51765ECF202197AD00E49D94 /* TimerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		51765EA4201F374D00E49D94 /* SelfDeallocController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfDeallocController.m; sourceTree = "<group>"; };
 		51765EA6201F378600E49D94 /* WeakStrongBlockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakStrongBlockController.h; sourceTree = "<group>"; };
 		51765EA7201F378600E49D94 /* WeakStrongBlockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakStrongBlockController.m; sourceTree = "<group>"; };
+		51765ECE202197AD00E49D94 /* TimerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerController.h; sourceTree = "<group>"; };
+		51765ECF202197AD00E49D94 /* TimerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				51765EA4201F374D00E49D94 /* SelfDeallocController.m */,
 				51765EA6201F378600E49D94 /* WeakStrongBlockController.h */,
 				51765EA7201F378600E49D94 /* WeakStrongBlockController.m */,
+				51765ECE202197AD00E49D94 /* TimerController.h */,
+				51765ECF202197AD00E49D94 /* TimerController.m */,
 				51373FF2201D8DE50092003D /* HGSelfObject.h */,
 				51373FF3201D8DE50092003D /* HGSelfObject.m */,
 				51373FE2201D8DD00092003D /* Main.storyboard */,
@@ -153,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51765EA8201F378600E49D94 /* WeakStrongBlockController.m in Sources */,
+				51765ED0202197AD00E49D94 /* TimerController.m in Sources */,
 				51765EA5201F374D00E49D94 /* SelfDeallocController.m in Sources */,
 				51373FF4201D8DE50092003D /* HGSelfObject.m in Sources */,
 				51373FEC201D8DD00092003D /* main.m in Sources */,
