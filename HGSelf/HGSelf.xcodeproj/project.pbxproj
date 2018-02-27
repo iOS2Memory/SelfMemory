@@ -8,33 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		51373FDE201D8DD00092003D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51373FDD201D8DD00092003D /* AppDelegate.m */; };
-		51373FE4201D8DD00092003D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51373FE2201D8DD00092003D /* Main.storyboard */; };
-		51373FE6201D8DD00092003D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51373FE5201D8DD00092003D /* Assets.xcassets */; };
-		51373FE9201D8DD00092003D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51373FE7201D8DD00092003D /* LaunchScreen.storyboard */; };
-		51373FEC201D8DD00092003D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51373FEB201D8DD00092003D /* main.m */; };
 		51373FF4201D8DE50092003D /* HGSelfObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 51373FF3201D8DE50092003D /* HGSelfObject.m */; };
+		513E0536204520B3000DC18F /* BlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513E0535204520B3000DC18F /* BlockController.m */; };
+		513E0544204525FB000DC18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513E053C204525FB000DC18F /* Assets.xcassets */; };
+		513E0545204525FB000DC18F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 513E053D204525FB000DC18F /* Info.plist */; };
+		513E0546204525FB000DC18F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 513E053E204525FB000DC18F /* main.m */; };
+		513E0547204525FB000DC18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513E0540204525FB000DC18F /* LaunchScreen.storyboard */; };
+		513E0548204525FB000DC18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513E0542204525FB000DC18F /* Main.storyboard */; };
+		513E054D20453082000DC18F /* RegularUseSELController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513E054C20453082000DC18F /* RegularUseSELController.m */; };
+		513E05502045344A000DC18F /* ImproveSELController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513E054F2045344A000DC18F /* ImproveSELController.m */; };
+		513E0556204537A7000DC18F /* ImproveNextSELController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513E0555204537A7000DC18F /* ImproveNextSELController.m */; };
+		513E055920453900000DC18F /* UltimateSELController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513E055820453900000DC18F /* UltimateSELController.m */; };
 		51765EA5201F374D00E49D94 /* SelfDeallocController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51765EA4201F374D00E49D94 /* SelfDeallocController.m */; };
 		51765EA8201F378600E49D94 /* WeakStrongBlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51765EA7201F378600E49D94 /* WeakStrongBlockController.m */; };
 		51765ED0202197AD00E49D94 /* TimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51765ECF202197AD00E49D94 /* TimerController.m */; };
+		518DEDD42022A6F4009F77D0 /* SELController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518DEDD32022A6F4009F77D0 /* SELController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51373FD9201D8DD00092003D /* HGSelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGSelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51373FDC201D8DD00092003D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51373FDD201D8DD00092003D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		51373FE3201D8DD00092003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51373FE5201D8DD00092003D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		51373FE8201D8DD00092003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		51373FEA201D8DD00092003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51373FEB201D8DD00092003D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51373FF2201D8DE50092003D /* HGSelfObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGSelfObject.h; sourceTree = "<group>"; };
 		51373FF3201D8DE50092003D /* HGSelfObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGSelfObject.m; sourceTree = "<group>"; };
+		513E0534204520B3000DC18F /* BlockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockController.h; sourceTree = "<group>"; };
+		513E0535204520B3000DC18F /* BlockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockController.m; sourceTree = "<group>"; };
+		513E053C204525FB000DC18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		513E053D204525FB000DC18F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513E053E204525FB000DC18F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		513E0541204525FB000DC18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		513E0543204525FB000DC18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		513E054B20453082000DC18F /* RegularUseSELController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularUseSELController.h; sourceTree = "<group>"; };
+		513E054C20453082000DC18F /* RegularUseSELController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularUseSELController.m; sourceTree = "<group>"; };
+		513E054E2045344A000DC18F /* ImproveSELController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImproveSELController.h; sourceTree = "<group>"; };
+		513E054F2045344A000DC18F /* ImproveSELController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImproveSELController.m; sourceTree = "<group>"; };
+		513E0554204537A7000DC18F /* ImproveNextSELController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImproveNextSELController.h; sourceTree = "<group>"; };
+		513E0555204537A7000DC18F /* ImproveNextSELController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImproveNextSELController.m; sourceTree = "<group>"; };
+		513E055720453900000DC18F /* UltimateSELController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UltimateSELController.h; sourceTree = "<group>"; };
+		513E055820453900000DC18F /* UltimateSELController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltimateSELController.m; sourceTree = "<group>"; };
 		51765EA3201F374D00E49D94 /* SelfDeallocController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfDeallocController.h; sourceTree = "<group>"; };
 		51765EA4201F374D00E49D94 /* SelfDeallocController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfDeallocController.m; sourceTree = "<group>"; };
 		51765EA6201F378600E49D94 /* WeakStrongBlockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakStrongBlockController.h; sourceTree = "<group>"; };
 		51765EA7201F378600E49D94 /* WeakStrongBlockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakStrongBlockController.m; sourceTree = "<group>"; };
 		51765ECE202197AD00E49D94 /* TimerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerController.h; sourceTree = "<group>"; };
 		51765ECF202197AD00E49D94 /* TimerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerController.m; sourceTree = "<group>"; };
+		518DEDD22022A6F4009F77D0 /* SELController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELController.h; sourceTree = "<group>"; };
+		518DEDD32022A6F4009F77D0 /* SELController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,23 +86,99 @@
 		51373FDB201D8DD00092003D /* HGSelf */ = {
 			isa = PBXGroup;
 			children = (
-				51373FDC201D8DD00092003D /* AppDelegate.h */,
-				51373FDD201D8DD00092003D /* AppDelegate.m */,
-				51765EA3201F374D00E49D94 /* SelfDeallocController.h */,
-				51765EA4201F374D00E49D94 /* SelfDeallocController.m */,
-				51765EA6201F378600E49D94 /* WeakStrongBlockController.h */,
-				51765EA7201F378600E49D94 /* WeakStrongBlockController.m */,
-				51765ECE202197AD00E49D94 /* TimerController.h */,
-				51765ECF202197AD00E49D94 /* TimerController.m */,
-				51373FF2201D8DE50092003D /* HGSelfObject.h */,
-				51373FF3201D8DE50092003D /* HGSelfObject.m */,
-				51373FE2201D8DD00092003D /* Main.storyboard */,
-				51373FE5201D8DD00092003D /* Assets.xcassets */,
-				51373FE7201D8DD00092003D /* LaunchScreen.storyboard */,
-				51373FEA201D8DD00092003D /* Info.plist */,
-				51373FEB201D8DD00092003D /* main.m */,
+				513E053B20452599000DC18F /* Common */,
+				513E053A20452530000DC18F /* CommonObject */,
+				513E053820452491000DC18F /* Slef */,
+				513E053720452481000DC18F /* Block */,
+				513E05392045249B000DC18F /* Timer */,
 			);
 			path = HGSelf;
+			sourceTree = "<group>";
+		};
+		513E053720452481000DC18F /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				51765EA6201F378600E49D94 /* WeakStrongBlockController.h */,
+				51765EA7201F378600E49D94 /* WeakStrongBlockController.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		513E053820452491000DC18F /* Slef */ = {
+			isa = PBXGroup;
+			children = (
+				51765EA3201F374D00E49D94 /* SelfDeallocController.h */,
+				51765EA4201F374D00E49D94 /* SelfDeallocController.m */,
+			);
+			path = Slef;
+			sourceTree = "<group>";
+		};
+		513E05392045249B000DC18F /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				51765ECE202197AD00E49D94 /* TimerController.h */,
+				51765ECF202197AD00E49D94 /* TimerController.m */,
+				513E0549204529B7000DC18F /* SEL */,
+				513E054A204529BE000DC18F /* Block */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		513E053A20452530000DC18F /* CommonObject */ = {
+			isa = PBXGroup;
+			children = (
+				51373FDC201D8DD00092003D /* AppDelegate.h */,
+				51373FDD201D8DD00092003D /* AppDelegate.m */,
+				51373FF2201D8DE50092003D /* HGSelfObject.h */,
+				51373FF3201D8DE50092003D /* HGSelfObject.m */,
+			);
+			path = CommonObject;
+			sourceTree = "<group>";
+		};
+		513E053B20452599000DC18F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				513E053C204525FB000DC18F /* Assets.xcassets */,
+				513E053F204525FB000DC18F /* Base.lproj */,
+				513E053D204525FB000DC18F /* Info.plist */,
+				513E053E204525FB000DC18F /* main.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		513E053F204525FB000DC18F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				513E0540204525FB000DC18F /* LaunchScreen.storyboard */,
+				513E0542204525FB000DC18F /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		513E0549204529B7000DC18F /* SEL */ = {
+			isa = PBXGroup;
+			children = (
+				518DEDD22022A6F4009F77D0 /* SELController.h */,
+				518DEDD32022A6F4009F77D0 /* SELController.m */,
+				513E054B20453082000DC18F /* RegularUseSELController.h */,
+				513E054C20453082000DC18F /* RegularUseSELController.m */,
+				513E054E2045344A000DC18F /* ImproveSELController.h */,
+				513E054F2045344A000DC18F /* ImproveSELController.m */,
+				513E0554204537A7000DC18F /* ImproveNextSELController.h */,
+				513E0555204537A7000DC18F /* ImproveNextSELController.m */,
+				513E055720453900000DC18F /* UltimateSELController.h */,
+				513E055820453900000DC18F /* UltimateSELController.m */,
+			);
+			path = SEL;
+			sourceTree = "<group>";
+		};
+		513E054A204529BE000DC18F /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				513E0534204520B3000DC18F /* BlockController.h */,
+				513E0535204520B3000DC18F /* BlockController.m */,
+			);
+			path = Block;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51373FE9201D8DD00092003D /* LaunchScreen.storyboard in Resources */,
-				51373FE6201D8DD00092003D /* Assets.xcassets in Resources */,
-				51373FE4201D8DD00092003D /* Main.storyboard in Resources */,
+				513E0547204525FB000DC18F /* LaunchScreen.storyboard in Resources */,
+				513E0545204525FB000DC18F /* Info.plist in Resources */,
+				513E0544204525FB000DC18F /* Assets.xcassets in Resources */,
+				513E0548204525FB000DC18F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,32 +253,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518DEDD42022A6F4009F77D0 /* SELController.m in Sources */,
 				51765EA8201F378600E49D94 /* WeakStrongBlockController.m in Sources */,
+				513E0556204537A7000DC18F /* ImproveNextSELController.m in Sources */,
 				51765ED0202197AD00E49D94 /* TimerController.m in Sources */,
+				513E0536204520B3000DC18F /* BlockController.m in Sources */,
 				51765EA5201F374D00E49D94 /* SelfDeallocController.m in Sources */,
+				513E05502045344A000DC18F /* ImproveSELController.m in Sources */,
+				513E054D20453082000DC18F /* RegularUseSELController.m in Sources */,
 				51373FF4201D8DE50092003D /* HGSelfObject.m in Sources */,
-				51373FEC201D8DD00092003D /* main.m in Sources */,
+				513E0546204525FB000DC18F /* main.m in Sources */,
 				51373FDE201D8DD00092003D /* AppDelegate.m in Sources */,
+				513E055920453900000DC18F /* UltimateSELController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51373FE2201D8DD00092003D /* Main.storyboard */ = {
+		513E0540204525FB000DC18F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				51373FE3201D8DD00092003D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		51373FE7201D8DD00092003D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51373FE8201D8DD00092003D /* Base */,
+				513E0541204525FB000DC18F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		513E0542204525FB000DC18F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				513E0543204525FB000DC18F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,7 +400,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8Y5E9ZUX3;
-				INFOPLIST_FILE = HGSelf/Info.plist;
+				INFOPLIST_FILE = HGSelf/Common/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderHG.HGSelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,7 +415,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8Y5E9ZUX3;
-				INFOPLIST_FILE = HGSelf/Info.plist;
+				INFOPLIST_FILE = HGSelf/Common/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderHG.HGSelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";

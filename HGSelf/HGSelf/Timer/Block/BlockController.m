@@ -1,29 +1,30 @@
 //
-//  TimerController.m
+//  NSTimerForBlockController.m
 //  HGSelf
 //
-//  Created by  ZhuHong on 2018/1/31.
+//  Created by  ZhuHong on 2018/2/27.
 //  Copyright © 2018年 CoderHG. All rights reserved.
 //
 
-#import "TimerController.h"
+// Block的情况相当简单, 在Block中给 strong 指针 weak 即可.
+
+#import "BlockController.h"
 #import "HGSelfObject.h"
 
-@interface TimerController ()
+@interface BlockController ()
 
 @property (nonatomic, strong) NSObject* obj;
 
-// 注意, 这里尽然是weak也是没有问题的, why
+// 注意, 这里尽然是weak也是没有问题的, 这是有原因的
 @property (nonatomic, weak) NSTimer* timer;
 
 @end
 
-@implementation TimerController
+@implementation BlockController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     self.obj = [[HGSelfObject alloc] init];
     __weak typeof(self) weakSelf = self;
     NSTimer* timer =  [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
@@ -37,7 +38,6 @@
     
     // strong --->  weak
     self.timer = timer;
-    
 }
 
 

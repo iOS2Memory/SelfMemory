@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TimerController : UIViewController
+@interface TimerController : UITableViewController
 
 @end
